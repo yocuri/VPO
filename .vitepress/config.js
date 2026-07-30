@@ -4,27 +4,27 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   srcDir: "docs",
   
-  title: "Yocuri VP",
-  description: "SSG for Future ",
+  title: "faebol",
+  description: "stories for static site generation",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Faebol', link: '/' },
+      { text: 'Author', link: '/author' }
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: 'Lauren was here',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'About', link: '/author' },
+          { text: 'Features', link: '/features' }
         ]
       }
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/yocuri/VPO' }
     ]
   }
 })

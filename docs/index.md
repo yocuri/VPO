@@ -3,23 +3,25 @@
 layout: home
 
 hero:
-  name: "Yocuri VP"
-  text: "SSG for Future "
-  tagline: My great project tagline
+  name: "faebol"
+  text: "stories for static site generation"
+  tagline: it's a work in progress
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: GitHub
+      link: https://github.com/yocuri/VPO
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: About the Author
+      link: /author
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Page Test
+    details: I had four biscuits. 
+    link: /features
+  - title: 🍪🍪🍪🍪
+    details: Then I ate one. 
+  - title: 🍪🍪🍪
+    details: Now I only have three.
+#    
 ---
 
