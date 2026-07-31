@@ -9,15 +9,20 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Faebol', link: '/' },
-      { text: 'Author', link: '/author' }
+      { text: 'yocuri.live', link: 'https://yocuri.live' },
+      { text: 'empathicide.net', link: 'https://empathicide.yocuri.live' }
     ],
 
     sidebar: [
       {
-        text: 'Lauren was here',
+        text: 'Autobiography',
         items: [
-          { text: 'About', link: '/author' },
+          { text: 'About', link: '/about/' },
+          { text: 'Author', link: '/about/author' }
+        ]},
+        {
+        text: 'Faebol',
+        items: [
           { text: 'Features', link: '/features' }
         ]
       }

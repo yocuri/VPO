@@ -12,7 +12,7 @@ hero:
       link: https://github.com/yocuri/VPO
     - theme: alt
       text: About the Author
-      link: /author
+      link: /about/author
 
 features:
   - title: Page Test
@@ -24,4 +24,8 @@ features:
     details: Now I only have three.
 #    
 ---
+Thank you for visiting my VitePress home page! I am re-orchestrating my Obsidian vault synchronization for mobile workflow optimization.
 
+Working out some bugs with [SyncThing](https://syncthing.net). Almost got it.
+
+<LatestPosts />
